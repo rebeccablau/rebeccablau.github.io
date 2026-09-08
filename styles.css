@@ -83,7 +83,7 @@ a:visited {
 }
 
 .about-text {
-  width: 600px;
+  width: 700px;
   font-size: 18px;
   background-color: white;
   padding-left: 20px;
@@ -92,14 +92,39 @@ a:visited {
   border-radius: 10px;
 }
 
-/* RESUME PAGE */
+/* PORTFOLIO PAGE */
 
-.resume-page {
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.portfolio-page {
   display: flex;
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 0px;
 }
+
+.portfolio-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 1000px;
+}
+
+li.entry-info {
+  text-indent: 0px;
+  list-style-type: none;
+}
+
+/* RESUME PAGE */
 
 .resume {
   display: flex;
@@ -107,6 +132,13 @@ a:visited {
   justify-content: center;
   align-items: center;
   gap: 40px;
+}
+
+.resume-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 0px;
 }
 
 .resume-details {
@@ -127,11 +159,46 @@ a:visited {
   list-style-type: none;
 }
 
-/* CONTACT PAGE */
+/* BLOG PAGE */
 
-.contact-page {
-    margin: 0px;
+.blog {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
+
+.blog-page {
+  margin: 0px;
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.recipe {
+    margin-bottom: 0px;
+}
+
+.blog-post img {
+    height: 300px;
+}
+
+/* CONTACT PAGE */
 
 .contact {
   margin-top: 40px;
@@ -140,6 +207,10 @@ a:visited {
   align-items: center;
   justify-content: center;
   gap: 40px;
+}
+
+.contact-page {
+  margin: 0px;
 }
 
 .contact-info {
