@@ -190,12 +190,17 @@ li.entry-info {
     border-radius: 10px;
 }
 
+.blog-post h2 {
+    margin-top: 0px;
+}
+
 .recipe {
     margin-bottom: 0px;
 }
 
 .blog-post img {
     height: 300px;
+    border-radius: 5px;
 }
 
 /* CONTACT PAGE */
