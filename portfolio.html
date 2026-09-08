@@ -2,17 +2,18 @@
 <html>
   <head>
     <title>Rebecca's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav class="navbar">
       <h1 class="logo">
-        <a href="index.html">Rebecca Blau's Personal Site</a>
+        <a href="index.html">Rebecca's Bits and Bites</a>
       </h1>
       <ul class="nav-list">
         <li><a href="index.html">Home</a></li>
-        <li><a href="blog.html">Blog</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="resume.html">Resume</a></li>
+        <li><a href="blog.html">Bites</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -26,14 +27,59 @@
             width="300px"
         /></a>
         <div class="project-details">
-            <p class="project-name"><strong>Rebecca Blau's Personal Site</strong></p>
-            <p class="project-description">A quick personal project created for recruitment for CalPoly's Hack4Impact!</p>
-            <a href="index.html">LEARN MORE!</a>
+          <p class="project-name">
+            <strong>Rebecca Blau's Personal Site</strong>
+          </p>
+          <p class="project-description">
+            A quick personal project created for recruitment for CalPoly's
+            Hack4Impact!
+          </p>
+          <a href="index.html">LEARN MORE!</a>
         </div>
       </div>
+
+      <section class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="entry">
+          <h3 class="entry-title">The Wizarding Wire</h3>
+          <p class="entry-info">
+            <em>The Wizarding Wire</em> is a full-stack web application inspired
+            by the beloved (by myself, and millions) book series,
+            <em>Harry Potter.</em>
+          </p>
+          <p class="entry-description">
+            I have leveraged the <strong>MERN stack</strong>, utilizing
+            <strong>TypeScript</strong> based on the
+            <strong>Model-View-Controller</strong> (MVC) design pattern to
+            create a simple, but thorough, <strong>CRUD</strong> app.
+          </p>
+          <a href="https://github.com/rebeccablau/the-wizarding-wire"
+            >Check out <em>The Wizarding Wire</em> on Github!</a
+          >
+        </div>
+        <div class="entry">
+          <h3 class="entry-title">Tello Drone Mission</h3>
+          <p class="entry-info">
+            To experiment with Robotics and Artifical Intellignece, I utilized a
+            <strong>DJI Tello Drone</strong> and
+            <strong>Google's MediaPipe</strong> open source framework to develop
+            a drone mission control application.
+          </p>
+          <p class="entry-description">
+            I enhanced the drone’s vision by adding
+            <strong>object detection</strong>, utilized
+            <strong>threading</strong> to process commands coming from my own
+            computer, and learned how to create a video writer to save the
+            mission recordings.
+          </p>
+          <a href="https://github.com/rebeccablau/tello-drone-mission"
+            >Check out <em>Tello Drone Mission</em> on Github!</a
+          >
+        </div>
+      </section>
     </main>
     <footer class="footer">
-      © 2026 Rebecca Blau's Personal Site | All Rights Reserved
+      © 2026 Rebecca's Bits and Bites | All Rights Reserved
     </footer>
   </body>
 </html>
